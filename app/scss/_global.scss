@@ -1,0 +1,84 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	position: relative;
+	overflow-x: hidden;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+p {
+	font-family: 'Open Sans',
+		sans-serif;
+	font-size: 16px;
+	color: #22191a;
+	line-height: 28px;
+}
+
+
+body {
+	font-family: 'Fjalla One',
+		sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+	outline: none;
+	border: none;
+}
+
+// .wrapper {
+// 	display: flex;
+// 	flex-direction: column;
+// 	min-height: 100%;
+// }
+
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.container-fluid {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+}
