@@ -13,12 +13,13 @@ body {
 	height: 100%;
 	position: relative;
 	overflow-x: hidden;
+	background-color: #fff;
 }
 
 a {
 	display: inline-block;
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 }
 
 ul,
@@ -29,8 +30,6 @@ li {
 }
 
 p {
-	font-family: 'Open Sans',
-		sans-serif;
 	font-size: 16px;
 	color: #22191a;
 	line-height: 28px;
@@ -38,10 +37,10 @@ p {
 
 
 body {
-	font-family: 'Fjalla One',
+	font-family: 'Panton Semibold',
 		sans-serif;
 	font-weight: 400;
-	color: #fff;
+	color: #000;
 }
 
 * {
@@ -59,11 +58,11 @@ textarea {
 	border: none;
 }
 
-// .wrapper {
-// 	display: flex;
-// 	flex-direction: column;
-// 	min-height: 100%;
-// }
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
 
 
 .footer {
