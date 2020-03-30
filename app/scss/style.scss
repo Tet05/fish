@@ -536,6 +536,9 @@
   &-img {
     margin-top: -75px;
     margin-left: -31px;
+    .novelty {
+      margin-top: -92px;
+    }
   }
 
   &-price {
@@ -544,6 +547,17 @@
     margin-top: -30px;
     color: #ffffff;
     letter-spacing: 1px;
+  }
+  &-free {
+    font-size: 95px;
+    font-family: "Panton ExtraBold", sans-serif;
+    color: rgba(255, 255, 255, 0.22);
+    padding-right: 67px;
+    position: absolute;
+    top: 50%;
+  }
+  .price {
+    margin-top: -67px;
   }
 }
 
@@ -599,6 +613,10 @@
   .katushka {
     height: 202px;
     margin-left: 26px;
+  }
+  .katushk {
+    height: 185px;
+    margin-bottom: 15px;
   }
   .works__inner-title {
     font-size: 16px;
